@@ -4,7 +4,7 @@ import express from "express";
 // BOT CONFIG (Hardcoded for now, but use env in production)
 const BOT_TOKEN = "6911970127:AAGTCEBWDs0frAABguZcu8_ih__WMZU4zX0";
 const ADMIN_ID = "1862385036";
-const BASE_URL = process.env.BASE_URL; // Vercel URL (e.g., https://your-app.vercel.app)
+const BASE_URL = "deno-souvik-patis-projects.vercel.app"; // Vercel URL (e.g., https://your-app.vercel.app)
 
 const bot = new Telegraf(BOT_TOKEN);
 
